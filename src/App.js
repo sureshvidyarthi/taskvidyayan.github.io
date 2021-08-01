@@ -11,7 +11,7 @@ import DisplayMyStudent from "./Component/DisplayMyStudent"
 import DisplayAllTutor from "./Component/DisplayAllTutor"
 import DisplayTutorReq from "./Component/DisplayTutorReq"
 import DisplayMyTutor from "./Component/DisplayMyTutor"
-
+import FigmaUi from "./Component/FigmaUi"
 import {BrowserRouter as Router,Route} from "react-router-dom"
 
 function App(props) {
@@ -122,6 +122,15 @@ function App(props) {
         path="/displaymytutor"
         history={props.history}>
         </Route>
+
+       <Route
+        strict
+        exact
+        component={FigmaUi}
+        path="/figmaui"
+        history={props.history}>
+        </Route>
+
 
 
 

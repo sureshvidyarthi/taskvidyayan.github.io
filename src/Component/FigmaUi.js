@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
         display:'flex',
         padding:10,
         width:550,
-        height:280,
+        height:300,
         margin:60,
         borderRadius:'15px',
         backgroundColor:"#B264F7",
